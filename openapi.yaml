@@ -1,0 +1,521 @@
+openapi: 3.0.3
+info:
+  title: bd-geo-api
+  description: >
+    REST API for Bangladesh's administrative geography — division, district,
+    upazila, union, ward, pourashava (municipality), and city corporation
+    data. Bilingual (English + Bengali) where confirmed by a source.
+  version: "1.0.0"
+  license:
+    name: MIT
+servers:
+  - url: http://localhost:3000/v1
+    description: Local development
+tags:
+  - name: divisions
+  - name: districts
+  - name: upazilas
+  - name: unions
+  - name: pourashavas
+  - name: city-corporations
+  - name: hospitals
+  - name: search
+  - name: meta
+
+paths:
+  /divisions:
+    get:
+      tags: [divisions]
+      summary: List all divisions
+      parameters:
+        - $ref: "#/components/parameters/page"
+        - $ref: "#/components/parameters/perPage"
+      responses:
+        "200":
+          description: A page of divisions
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/DivisionListResponse"
+
+  /divisions/{id}:
+    get:
+      tags: [divisions]
+      summary: Get a single division
+      parameters:
+        - $ref: "#/components/parameters/id"
+      responses:
+        "200":
+          description: A division
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  data:
+                    $ref: "#/components/schemas/Division"
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /divisions/{id}/districts:
+    get:
+      tags: [divisions]
+      summary: List districts within a division
+      parameters:
+        - $ref: "#/components/parameters/id"
+        - $ref: "#/components/parameters/page"
+        - $ref: "#/components/parameters/perPage"
+      responses:
+        "200":
+          description: A page of districts
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/DistrictListResponse"
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /divisions/{id}/hospitals:
+    get:
+      tags: [divisions]
+      summary: List hospitals within a division
+      parameters:
+        - $ref: "#/components/parameters/id"
+        - $ref: "#/components/parameters/page"
+        - $ref: "#/components/parameters/perPage"
+      responses:
+        "200":
+          description: A page of hospitals
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /districts:
+    get:
+      tags: [districts]
+      summary: List all districts
+      parameters:
+        - $ref: "#/components/parameters/page"
+        - $ref: "#/components/parameters/perPage"
+      responses:
+        "200":
+          description: A page of districts
+          content:
+            application/json:
+              schema:
+                $ref: "#/components/schemas/DistrictListResponse"
+
+  /districts/{id}:
+    get:
+      tags: [districts]
+      summary: Get a single district
+      parameters:
+        - $ref: "#/components/parameters/id"
+      responses:
+        "200":
+          description: A district
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /districts/{id}/upazilas:
+    get:
+      tags: [districts]
+      summary: List upazilas within a district
+      parameters:
+        - $ref: "#/components/parameters/id"
+        - $ref: "#/components/parameters/page"
+        - $ref: "#/components/parameters/perPage"
+      responses:
+        "200":
+          description: A page of upazilas
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /districts/{id}/city-corporations:
+    get:
+      tags: [districts]
+      summary: List city corporations within a district (usually 0 or 1; Dhaka has 2)
+      parameters:
+        - $ref: "#/components/parameters/id"
+      responses:
+        "200":
+          description: City corporations in this district
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /districts/{id}/pourashavas:
+    get:
+      tags: [districts]
+      summary: >
+        List pourashavas attached directly to this district, i.e. those
+        whose parent upazila could not be confirmed by any source (9 of
+        334 nationwide — see README for details).
+      parameters:
+        - $ref: "#/components/parameters/id"
+      responses:
+        "200":
+          description: District-level (unplaced) pourashavas
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /districts/{id}/hospitals:
+    get:
+      tags: [districts]
+      summary: List hospitals within a district
+      parameters:
+        - $ref: "#/components/parameters/id"
+        - $ref: "#/components/parameters/page"
+        - $ref: "#/components/parameters/perPage"
+      responses:
+        "200":
+          description: A page of hospitals
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /upazilas:
+    get:
+      tags: [upazilas]
+      summary: List all upazilas
+      parameters:
+        - $ref: "#/components/parameters/page"
+        - $ref: "#/components/parameters/perPage"
+      responses:
+        "200":
+          description: A page of upazilas
+
+  /upazilas/{id}:
+    get:
+      tags: [upazilas]
+      summary: Get a single upazila
+      parameters:
+        - $ref: "#/components/parameters/id"
+      responses:
+        "200":
+          description: An upazila
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /upazilas/{id}/unions:
+    get:
+      tags: [upazilas]
+      summary: List unions within an upazila
+      parameters:
+        - $ref: "#/components/parameters/id"
+        - $ref: "#/components/parameters/page"
+        - $ref: "#/components/parameters/perPage"
+      responses:
+        "200":
+          description: A page of unions
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /upazilas/{id}/pourashavas:
+    get:
+      tags: [upazilas]
+      summary: List pourashavas within an upazila (almost always 0 or 1)
+      parameters:
+        - $ref: "#/components/parameters/id"
+      responses:
+        "200":
+          description: Pourashavas in this upazila
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /upazilas/{id}/hospitals:
+    get:
+      tags: [upazilas]
+      summary: List hospitals within an upazila
+      parameters:
+        - $ref: "#/components/parameters/id"
+      responses:
+        "200":
+          description: Hospitals in this upazila
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /unions:
+    get:
+      tags: [unions]
+      summary: List all unions
+      parameters:
+        - $ref: "#/components/parameters/page"
+        - $ref: "#/components/parameters/perPage"
+      responses:
+        "200":
+          description: A page of unions (4,540 total)
+
+  /unions/{id}:
+    get:
+      tags: [unions]
+      summary: Get a single union
+      parameters:
+        - $ref: "#/components/parameters/id"
+      responses:
+        "200":
+          description: A union
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /unions/{id}/wards:
+    get:
+      tags: [unions]
+      summary: List the 9 statutory wards of a union
+      description: >
+        Every union has exactly 9 wards under the Union Parishad Act 2009.
+        These are generated, not stored — there is no per-ward name or
+        area data (that would require mouza-level census data this API
+        does not have).
+      parameters:
+        - $ref: "#/components/parameters/id"
+      responses:
+        "200":
+          description: 9 wards
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /pourashavas:
+    get:
+      tags: [pourashavas]
+      summary: List all pourashavas (municipalities)
+      parameters:
+        - $ref: "#/components/parameters/page"
+        - $ref: "#/components/parameters/perPage"
+      responses:
+        "200":
+          description: A page of pourashavas (334 total)
+
+  /pourashavas/{id}:
+    get:
+      tags: [pourashavas]
+      summary: Get a single pourashava
+      parameters:
+        - $ref: "#/components/parameters/id"
+      responses:
+        "200":
+          description: A pourashava
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /pourashavas/{id}/wards:
+    get:
+      tags: [pourashavas]
+      summary: List a pourashava's wards, if the count is confirmed
+      description: >
+        Pourashava ward counts are NOT fixed by law (they range 9–39 by
+        population, per the Paurashava Ordinance). This endpoint only
+        returns wards when an exact count was confirmed against BBS's
+        census geocode (312 of 334 pourashavas). For the rest, this
+        returns 404 with code WARD_COUNT_UNCONFIRMED rather than guessing.
+      parameters:
+        - $ref: "#/components/parameters/id"
+      responses:
+        "200":
+          description: Wards (count varies by pourashava)
+        "404":
+          description: Pourashava not found, or ward count unconfirmed
+
+  /city-corporations:
+    get:
+      tags: [city-corporations]
+      summary: List all 13 city corporations
+      responses:
+        "200":
+          description: All city corporations
+
+  /city-corporations/{id}:
+    get:
+      tags: [city-corporations]
+      summary: Get a single city corporation
+      parameters:
+        - $ref: "#/components/parameters/id"
+      responses:
+        "200":
+          description: A city corporation
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /city-corporations/{id}/thanas:
+    get:
+      tags: [city-corporations]
+      summary: List a city corporation's constituent thanas
+      description: >
+        Only Dhaka North (26 thanas) and Dhaka South (24 thanas) are
+        broken down to thana level in this dataset, verified
+        non-overlapping. The other 11 city corporations return an empty
+        list rather than an approximate one.
+      parameters:
+        - $ref: "#/components/parameters/id"
+      responses:
+        "200":
+          description: Thanas (may be empty)
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /city-corporations/{id}/hospitals:
+    get:
+      tags: [city-corporations]
+      summary: List hospitals within a city corporation
+      parameters:
+        - $ref: "#/components/parameters/id"
+      responses:
+        "200":
+          description: Hospitals in this city corporation
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /hospitals:
+    get:
+      tags: [hospitals]
+      summary: List all hospitals / health facilities
+      description: >
+        Sourced from DGHS's facility registry. 2,615 of 2,617 facilities
+        are linked to this API's own division/district/upazila or
+        city-corporation/thana ids — matched by administrative code where
+        the source provided one, and by cross-referenced name otherwise
+        (see README for the full resolution method and its two
+        remaining unlinked records).
+      parameters:
+        - name: agency
+          in: query
+          schema: { type: string }
+          description: Filter by managing agency, e.g. DGHS
+        - name: facility_type
+          in: query
+          schema: { type: string }
+          description: Filter by facility type, e.g. "Upazila Health Complex"
+        - $ref: "#/components/parameters/page"
+        - $ref: "#/components/parameters/perPage"
+      responses:
+        "200":
+          description: A page of hospitals (2,617 total)
+
+  /hospitals/{id}:
+    get:
+      tags: [hospitals]
+      summary: Get a single hospital / health facility
+      parameters:
+        - $ref: "#/components/parameters/id"
+      responses:
+        "200":
+          description: A hospital
+        "404":
+          $ref: "#/components/responses/NotFound"
+
+  /search:
+    get:
+      tags: [search]
+      summary: Search by name across every tier
+      parameters:
+        - name: q
+          in: query
+          required: true
+          schema:
+            type: string
+          description: Search term, matched against English or Bengali name
+        - name: type
+          in: query
+          required: false
+          schema:
+            type: string
+            enum: [division, district, upazila, union, pourashava, city_corporation, thana]
+          description: Restrict results to one tier
+        - $ref: "#/components/parameters/page"
+        - $ref: "#/components/parameters/perPage"
+      responses:
+        "200":
+          description: Matching records across all tiers
+        "400":
+          description: Missing required 'q' parameter
+
+  /stats:
+    get:
+      tags: [meta]
+      summary: Dataset-wide totals and data-quality counters
+      responses:
+        "200":
+          description: Totals for every resource, plus placement/confirmation counters
+
+components:
+  parameters:
+    id:
+      name: id
+      in: path
+      required: true
+      schema:
+        type: string
+      description: Resource id, e.g. "upz-123"
+    page:
+      name: page
+      in: query
+      schema:
+        type: integer
+        default: 1
+    perPage:
+      name: per_page
+      in: query
+      schema:
+        type: integer
+        default: 50
+        maximum: 500
+
+  responses:
+    NotFound:
+      description: Resource not found
+      content:
+        application/json:
+          schema:
+            $ref: "#/components/schemas/Error"
+
+  schemas:
+    Error:
+      type: object
+      properties:
+        error:
+          type: object
+          properties:
+            code:
+              type: string
+            message:
+              type: string
+
+    Division:
+      type: object
+      properties:
+        id: { type: string, example: "div-1" }
+        name: { type: string, example: "Dhaka" }
+        bn_name: { type: string, example: "ঢাকা" }
+
+    District:
+      type: object
+      properties:
+        id: { type: string }
+        division_id: { type: string }
+        name: { type: string }
+        bn_name: { type: string }
+
+    DivisionListResponse:
+      type: object
+      properties:
+        data:
+          type: array
+          items:
+            $ref: "#/components/schemas/Division"
+        meta:
+          $ref: "#/components/schemas/PageMeta"
+
+    DistrictListResponse:
+      type: object
+      properties:
+        data:
+          type: array
+          items:
+            $ref: "#/components/schemas/District"
+        meta:
+          $ref: "#/components/schemas/PageMeta"
+
+    PageMeta:
+      type: object
+      properties:
+        page: { type: integer }
+        per_page: { type: integer }
+        total: { type: integer }
+        total_pages: { type: integer }

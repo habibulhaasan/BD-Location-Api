@@ -1,0 +1,3342 @@
+[
+  {
+    "id": "pra-95000",
+    "upazila_id": "upz-1",
+    "district_id": null,
+    "name": "Debidwar Paurashava",
+    "bn_name": "দেবিদ্বার",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95001",
+    "upazila_id": "upz-2",
+    "district_id": null,
+    "name": "Barura Paurasava",
+    "bn_name": "বরুড়া",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95002",
+    "upazila_id": "upz-4",
+    "district_id": null,
+    "name": "Chandina Paurasava",
+    "bn_name": "চান্দিনা",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95003",
+    "upazila_id": "upz-5",
+    "district_id": null,
+    "name": "Chauddagram Paurashava",
+    "bn_name": "চৌদ্দগ্রাম",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95004",
+    "upazila_id": "upz-6",
+    "district_id": null,
+    "name": "Daudkandi Paurasava",
+    "bn_name": "দাউদকান্দি",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95005",
+    "upazila_id": "upz-7",
+    "district_id": null,
+    "name": "Homna Paurashava",
+    "bn_name": "হোমনা",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95006",
+    "upazila_id": "upz-8",
+    "district_id": null,
+    "name": "Laksam Paurasava",
+    "bn_name": "লাকসাম",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95007",
+    "upazila_id": "upz-10",
+    "district_id": null,
+    "name": "Nangalkot Paurashava",
+    "bn_name": "নাঙ্গলকোট",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95008",
+    "upazila_id": "upz-18",
+    "district_id": null,
+    "name": "Chhagalnaiya Paurashava",
+    "bn_name": "ছাগলনাইয়া",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95009",
+    "upazila_id": "upz-19",
+    "district_id": null,
+    "name": "Feni Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 18,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95010",
+    "upazila_id": "upz-20",
+    "district_id": null,
+    "name": "Sonagazi Paurashava",
+    "bn_name": "সোনাগাজী",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95011",
+    "upazila_id": "upz-22",
+    "district_id": null,
+    "name": "Parshuram Paurashava",
+    "bn_name": "পরশুরাম",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95012",
+    "upazila_id": "upz-23",
+    "district_id": null,
+    "name": "Daganbhuiyan Paurasava",
+    "bn_name": "দাগনভূঞা",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95013",
+    "upazila_id": "upz-24",
+    "district_id": null,
+    "name": "Brahmanbaria Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 12,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95014",
+    "upazila_id": "upz-25",
+    "district_id": null,
+    "name": "Kasba Paurasava",
+    "bn_name": "কসবা",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95015",
+    "upazila_id": "upz-29",
+    "district_id": null,
+    "name": "Akhaura Paurasava",
+    "bn_name": "আখাউড়া",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95016",
+    "upazila_id": "upz-30",
+    "district_id": null,
+    "name": "Nabinagar Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95017",
+    "upazila_id": "upz-31",
+    "district_id": null,
+    "name": "Bancharampur",
+    "bn_name": "বাঞ্ছারামপুর",
+    "category": "C",
+    "ward_count": null,
+    "source": "lged_only"
+  },
+  {
+    "id": "pra-95018",
+    "upazila_id": "upz-33",
+    "district_id": null,
+    "name": "Rangamati Paurashava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95019",
+    "upazila_id": "upz-36",
+    "district_id": null,
+    "name": "Baghaichhari Paurashava",
+    "bn_name": "বাঘাইছড়ি",
+    "category": "C",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95020",
+    "upazila_id": "upz-43",
+    "district_id": null,
+    "name": "Noakhali Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95021",
+    "upazila_id": "upz-44",
+    "district_id": null,
+    "name": "Basurhat Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95022",
+    "upazila_id": "upz-45",
+    "district_id": null,
+    "name": "Chaumohani Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95023",
+    "upazila_id": "upz-46",
+    "district_id": null,
+    "name": "Hatiya Paurashava",
+    "bn_name": "হাতিয়া",
+    "category": "C",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95024",
+    "upazila_id": "upz-48",
+    "district_id": null,
+    "name": "Kabirhat Paurasava",
+    "bn_name": "কবিরহাট",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95025",
+    "upazila_id": "upz-49",
+    "district_id": null,
+    "name": "Senbagh Paurashava",
+    "bn_name": "সেনবাগ",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95026",
+    "upazila_id": "upz-50",
+    "district_id": null,
+    "name": "Chatkhil Paurasava",
+    "bn_name": "চাটখিল",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95027",
+    "upazila_id": "upz-51",
+    "district_id": null,
+    "name": "Sonaimuri Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95028",
+    "upazila_id": "upz-53",
+    "district_id": null,
+    "name": "Kachua Paurasava",
+    "bn_name": "কচুয়া",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95029",
+    "upazila_id": "upz-54",
+    "district_id": null,
+    "name": "Shahrasti Paurasava",
+    "bn_name": "শাহরাস্তি\t",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95030",
+    "upazila_id": "upz-55",
+    "district_id": null,
+    "name": "Chandpur Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 15,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95031",
+    "upazila_id": "upz-56",
+    "district_id": null,
+    "name": "Matlab Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95032",
+    "upazila_id": "upz-56",
+    "district_id": null,
+    "name": "Sengarchar Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95033",
+    "upazila_id": "upz-57",
+    "district_id": null,
+    "name": "Hajiganj Paurasava",
+    "bn_name": "হাজীগঞ্জ",
+    "category": "A",
+    "ward_count": 12,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95034",
+    "upazila_id": "upz-59",
+    "district_id": null,
+    "name": "Faridganj Paurashava",
+    "bn_name": "ফরিদগঞ্জ",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95035",
+    "upazila_id": null,
+    "district_id": "dis-6",
+    "name": "Narayanpur",
+    "bn_name": null,
+    "category": "C",
+    "ward_count": null,
+    "source": "lged_only"
+  },
+  {
+    "id": "pra-95036",
+    "upazila_id": "upz-60",
+    "district_id": null,
+    "name": "Lakshmipur Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 12,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95037",
+    "upazila_id": "upz-62",
+    "district_id": null,
+    "name": "Raipur",
+    "bn_name": "রায়পুর",
+    "category": "A",
+    "ward_count": null,
+    "source": "lged_only"
+  },
+  {
+    "id": "pra-95038",
+    "upazila_id": "upz-62",
+    "district_id": null,
+    "name": "Roypur Paurasava",
+    "bn_name": null,
+    "category": null,
+    "ward_count": 9,
+    "source": "bbs_only"
+  },
+  {
+    "id": "pra-95039",
+    "upazila_id": "upz-63",
+    "district_id": null,
+    "name": "Ramgati Paurashava",
+    "bn_name": "রামগতি",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95040",
+    "upazila_id": "upz-64",
+    "district_id": null,
+    "name": "Ramganj Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95041",
+    "upazila_id": "upz-65",
+    "district_id": null,
+    "name": "Rangunia Paurashava",
+    "bn_name": "রাঙ্গুনিয়া",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95042",
+    "upazila_id": "upz-66",
+    "district_id": null,
+    "name": "Sitakunda Paurashava",
+    "bn_name": "সীতাকুন্ড",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95043",
+    "upazila_id": "upz-67",
+    "district_id": null,
+    "name": "Baroiar Hat Paurashava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95044",
+    "upazila_id": "upz-67",
+    "district_id": null,
+    "name": "Mirsharai Paurashava",
+    "bn_name": "মীরসরাই",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95045",
+    "upazila_id": "upz-68",
+    "district_id": null,
+    "name": "Patiya Paurashava",
+    "bn_name": "পটিয়া",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95046",
+    "upazila_id": "upz-69",
+    "district_id": null,
+    "name": "Sandwip Paurashava",
+    "bn_name": "সন্দ্বীপ",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95047",
+    "upazila_id": "upz-70",
+    "district_id": null,
+    "name": "Banshkhali Paurashava",
+    "bn_name": "বাঁশখালী",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95048",
+    "upazila_id": "upz-71",
+    "district_id": null,
+    "name": "Boalkhali Paurashava",
+    "bn_name": "বোয়ালখালী",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95049",
+    "upazila_id": "upz-73",
+    "district_id": null,
+    "name": "Chandanaish Paurashava",
+    "bn_name": "চন্দনাইশ",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95050",
+    "upazila_id": "upz-74",
+    "district_id": null,
+    "name": "Satkania Paurashava",
+    "bn_name": "সাতকানিয়া",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95051",
+    "upazila_id": "upz-76",
+    "district_id": null,
+    "name": "Hathazari",
+    "bn_name": "হাটহাজারী",
+    "category": "A",
+    "ward_count": null,
+    "source": "lged_only"
+  },
+  {
+    "id": "pra-95052",
+    "upazila_id": "upz-77",
+    "district_id": null,
+    "name": "Fatikchhari Paurasava",
+    "bn_name": "ফটিকছড়ি",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95053",
+    "upazila_id": "upz-78",
+    "district_id": null,
+    "name": "Raozan Paurashava",
+    "bn_name": "রাউজান",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95054",
+    "upazila_id": null,
+    "district_id": "dis-8",
+    "name": "Nazirhat",
+    "bn_name": null,
+    "category": "C",
+    "ward_count": null,
+    "source": "lged_only"
+  },
+  {
+    "id": "pra-95055",
+    "upazila_id": null,
+    "district_id": "dis-8",
+    "name": "Dohazari",
+    "bn_name": null,
+    "category": "C",
+    "ward_count": null,
+    "source": "lged_only"
+  },
+  {
+    "id": "pra-95056",
+    "upazila_id": "upz-80",
+    "district_id": null,
+    "name": "Cox'S Bazar Paurashava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 12,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95057",
+    "upazila_id": "upz-81",
+    "district_id": null,
+    "name": "Chakaria Paurashava",
+    "bn_name": "চকরিয়া",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95058",
+    "upazila_id": "upz-84",
+    "district_id": null,
+    "name": "Maheshkhali Paurashava",
+    "bn_name": "মহেশখালী",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95059",
+    "upazila_id": "upz-87",
+    "district_id": null,
+    "name": "Teknaf Paurashava",
+    "bn_name": "টেকনাফ",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95060",
+    "upazila_id": "upz-88",
+    "district_id": null,
+    "name": "Khagrachhari Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95061",
+    "upazila_id": "upz-94",
+    "district_id": null,
+    "name": "Ramgarh Paurashava",
+    "bn_name": "রামগড়",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95062",
+    "upazila_id": "upz-95",
+    "district_id": null,
+    "name": "Matiranga Paurashava",
+    "bn_name": "মাটিরাঙ্গা",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95063",
+    "upazila_id": "upz-97",
+    "district_id": null,
+    "name": "Bandarban Paurashava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95064",
+    "upazila_id": "upz-101",
+    "district_id": null,
+    "name": "Lama Paurashava",
+    "bn_name": "লামা",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95065",
+    "upazila_id": "upz-104",
+    "district_id": null,
+    "name": "Belkuchi Paurashava",
+    "bn_name": "বেলকুচি",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95066",
+    "upazila_id": "upz-107",
+    "district_id": null,
+    "name": "Kazipur Paurasava",
+    "bn_name": "কাজীপুর",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95067",
+    "upazila_id": "upz-108",
+    "district_id": null,
+    "name": "Raigonj",
+    "bn_name": "রায়গঞ্জ",
+    "category": "B",
+    "ward_count": null,
+    "source": "lged_only"
+  },
+  {
+    "id": "pra-95068",
+    "upazila_id": "upz-108",
+    "district_id": null,
+    "name": "Royganj Paurashava",
+    "bn_name": null,
+    "category": null,
+    "ward_count": 9,
+    "source": "bbs_only"
+  },
+  {
+    "id": "pra-95069",
+    "upazila_id": "upz-109",
+    "district_id": null,
+    "name": "Shahjadpur Paurasava",
+    "bn_name": "শাহজাদপুর",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95070",
+    "upazila_id": "upz-110",
+    "district_id": null,
+    "name": "Sirajganj Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 15,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95071",
+    "upazila_id": "upz-111",
+    "district_id": null,
+    "name": "Tarash",
+    "bn_name": "তাড়াশ",
+    "category": "C",
+    "ward_count": null,
+    "source": "lged_only"
+  },
+  {
+    "id": "pra-95072",
+    "upazila_id": "upz-112",
+    "district_id": null,
+    "name": "Ullah Para Paurasava",
+    "bn_name": "উল্লাপাড়া",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95073",
+    "upazila_id": "upz-113",
+    "district_id": null,
+    "name": "Sujanagar Paurasava",
+    "bn_name": "সুজানগর",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95074",
+    "upazila_id": "upz-114",
+    "district_id": null,
+    "name": "Ishwardi Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95075",
+    "upazila_id": "upz-115",
+    "district_id": null,
+    "name": "Bhangura Paurasava",
+    "bn_name": "ভাঙ্গুড়া",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95076",
+    "upazila_id": "upz-116",
+    "district_id": null,
+    "name": "Pabna Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 15,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95077",
+    "upazila_id": "upz-117",
+    "district_id": null,
+    "name": "Bera Paurasava",
+    "bn_name": "বেড়া",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95078",
+    "upazila_id": "upz-118",
+    "district_id": null,
+    "name": "Atgharia Paurasava",
+    "bn_name": "আটঘরিয়া",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95079",
+    "upazila_id": "upz-119",
+    "district_id": null,
+    "name": "Chatmohar Paurasava",
+    "bn_name": "চাটমোহর",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95080",
+    "upazila_id": "upz-120",
+    "district_id": null,
+    "name": "Santhia Paurasava",
+    "bn_name": "সাঁথিয়া",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95081",
+    "upazila_id": "upz-121",
+    "district_id": null,
+    "name": "Faridpur Paurasava",
+    "bn_name": "ফরিদপুর",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95082",
+    "upazila_id": "upz-122",
+    "district_id": null,
+    "name": "Kahaloo Paurashava",
+    "bn_name": "কাহালু",
+    "category": "C",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95083",
+    "upazila_id": "upz-123",
+    "district_id": null,
+    "name": "Bogra Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 20,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95084",
+    "upazila_id": "upz-124",
+    "district_id": null,
+    "name": "Sariakandi Paurasava",
+    "bn_name": "সারিয়াকান্দি",
+    "category": "C",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95085",
+    "upazila_id": "upz-126",
+    "district_id": null,
+    "name": "Dhupchanchia Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95086",
+    "upazila_id": "upz-126",
+    "district_id": null,
+    "name": "Talora Paurashava",
+    "bn_name": null,
+    "category": "C",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95087",
+    "upazila_id": "upz-127",
+    "district_id": null,
+    "name": "Santahar Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95088",
+    "upazila_id": "upz-128",
+    "district_id": null,
+    "name": "Nandigram Paurashava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95089",
+    "upazila_id": "upz-129",
+    "district_id": null,
+    "name": "Sonatola Paurashava",
+    "bn_name": null,
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95090",
+    "upazila_id": "upz-130",
+    "district_id": null,
+    "name": "Dhunat Paurashava",
+    "bn_name": "ধুনট",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95091",
+    "upazila_id": "upz-131",
+    "district_id": null,
+    "name": "Gabtali Paurashava",
+    "bn_name": "গাবতলী",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95092",
+    "upazila_id": "upz-132",
+    "district_id": null,
+    "name": "Sherpur Paurasava",
+    "bn_name": "শেরপুর",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95093",
+    "upazila_id": "upz-133",
+    "district_id": null,
+    "name": "Shibganj Paurashava",
+    "bn_name": "শিবগঞ্জ",
+    "category": "C",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95094",
+    "upazila_id": "upz-134",
+    "district_id": null,
+    "name": "Noahata Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95095",
+    "upazila_id": "upz-134",
+    "district_id": null,
+    "name": "Katakhali Paurasava",
+    "bn_name": null,
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95096",
+    "upazila_id": "upz-135",
+    "district_id": null,
+    "name": "Durgapur Paurasava",
+    "bn_name": "দুর্গাপুর",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95097",
+    "upazila_id": "upz-136",
+    "district_id": null,
+    "name": "Kesharhat Paurasava",
+    "bn_name": null,
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95098",
+    "upazila_id": "upz-137",
+    "district_id": null,
+    "name": "Charghat Paurasava",
+    "bn_name": "চারঘাট",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95099",
+    "upazila_id": "upz-138",
+    "district_id": null,
+    "name": "Puthia Paurasava",
+    "bn_name": "পুঠিয়া",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95100",
+    "upazila_id": "upz-139",
+    "district_id": null,
+    "name": "Bagha Paurasava",
+    "bn_name": "বাঘা",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95101",
+    "upazila_id": "upz-139",
+    "district_id": null,
+    "name": "Arani Paurasava",
+    "bn_name": null,
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95102",
+    "upazila_id": "upz-140",
+    "district_id": null,
+    "name": "Godagari Paurasava",
+    "bn_name": "গোদাগাড়ী",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95103",
+    "upazila_id": "upz-140",
+    "district_id": null,
+    "name": "Kakanhat Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95104",
+    "upazila_id": "upz-141",
+    "district_id": null,
+    "name": "Mundumala Paurasava",
+    "bn_name": null,
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95105",
+    "upazila_id": "upz-141",
+    "district_id": null,
+    "name": "Tanore Paurasava",
+    "bn_name": "তানোর",
+    "category": "C",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95106",
+    "upazila_id": "upz-142",
+    "district_id": null,
+    "name": "Tahirpur Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95107",
+    "upazila_id": "upz-142",
+    "district_id": null,
+    "name": "Bhabanigonj Paurasava",
+    "bn_name": null,
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95108",
+    "upazila_id": "upz-143",
+    "district_id": null,
+    "name": "Natore Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95109",
+    "upazila_id": "upz-144",
+    "district_id": null,
+    "name": "Singra Paurasava",
+    "bn_name": "সিংড়া",
+    "category": "A",
+    "ward_count": 12,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95110",
+    "upazila_id": "upz-145",
+    "district_id": null,
+    "name": "Banpara Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95111",
+    "upazila_id": "upz-145",
+    "district_id": null,
+    "name": "Baraigram Paurasava",
+    "bn_name": "বড়াইগ্রাম",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95112",
+    "upazila_id": "upz-146",
+    "district_id": null,
+    "name": "Bagatipara Paurasava",
+    "bn_name": "বাগাতিপাড়া",
+    "category": "C",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95113",
+    "upazila_id": "upz-147",
+    "district_id": null,
+    "name": "Gopalpur (Lalpur) Paurasava",
+    "bn_name": null,
+    "category": null,
+    "ward_count": 9,
+    "source": "bbs_only"
+  },
+  {
+    "id": "pra-95114",
+    "upazila_id": "upz-148",
+    "district_id": null,
+    "name": "Gurudaspur Paurasava",
+    "bn_name": "গুরুদাসপুর",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95115",
+    "upazila_id": "upz-149",
+    "district_id": null,
+    "name": "Naldanga Paurasava",
+    "bn_name": "নলডাঙ্গা",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95116",
+    "upazila_id": null,
+    "district_id": "dis-16",
+    "name": "Gopalpur",
+    "bn_name": "গোপালপুর",
+    "category": "C",
+    "ward_count": null,
+    "source": "lged_only"
+  },
+  {
+    "id": "pra-95117",
+    "upazila_id": "upz-150",
+    "district_id": null,
+    "name": "Akkelpur Paurasava",
+    "bn_name": "আক্কেলপুর",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95118",
+    "upazila_id": "upz-151",
+    "district_id": null,
+    "name": "Kalai Paurasava",
+    "bn_name": "কালাই",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95119",
+    "upazila_id": "upz-152",
+    "district_id": null,
+    "name": "Khetlal Paurasava",
+    "bn_name": "ক্ষেতলাল",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95120",
+    "upazila_id": "upz-153",
+    "district_id": null,
+    "name": "Panchbibi Paurasava",
+    "bn_name": "পাঁচবিবি",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95121",
+    "upazila_id": "upz-154",
+    "district_id": null,
+    "name": "Joypurhat Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95122",
+    "upazila_id": "upz-155",
+    "district_id": null,
+    "name": "Chapai Nababganj Paurashava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 15,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95123",
+    "upazila_id": "upz-156",
+    "district_id": null,
+    "name": "Rahanpur Paurashava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95124",
+    "upazila_id": "upz-157",
+    "district_id": null,
+    "name": "Nachole Paurashava",
+    "bn_name": "নাচোল",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95125",
+    "upazila_id": "upz-159",
+    "district_id": null,
+    "name": "Shibganj Paurashava",
+    "bn_name": "শিবগঞ্জ",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95126",
+    "upazila_id": "upz-162",
+    "district_id": null,
+    "name": "Nozipur Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95127",
+    "upazila_id": "upz-163",
+    "district_id": null,
+    "name": "Dhamoirhat Paurasava",
+    "bn_name": "ধামইরহাট",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95128",
+    "upazila_id": "upz-168",
+    "district_id": null,
+    "name": "Naogaon Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95129",
+    "upazila_id": "upz-171",
+    "district_id": null,
+    "name": "Manirampur Paurasava",
+    "bn_name": "মণিরামপুর",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95130",
+    "upazila_id": "upz-172",
+    "district_id": null,
+    "name": "Noapara Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95131",
+    "upazila_id": "upz-173",
+    "district_id": null,
+    "name": "Bagher Para Paurasava",
+    "bn_name": null,
+    "category": "C",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95132",
+    "upazila_id": "upz-174",
+    "district_id": null,
+    "name": "Chaugachha Paurasava",
+    "bn_name": null,
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95133",
+    "upazila_id": "upz-175",
+    "district_id": null,
+    "name": "Jhikargachha Paurasava",
+    "bn_name": "ঝিকরগাছা",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95134",
+    "upazila_id": "upz-176",
+    "district_id": null,
+    "name": "Keshabpur Paurashava",
+    "bn_name": "কেশবপুর",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95135",
+    "upazila_id": "upz-177",
+    "district_id": null,
+    "name": "Jessore Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95136",
+    "upazila_id": "upz-178",
+    "district_id": null,
+    "name": "Benapole Paurashava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95137",
+    "upazila_id": "upz-181",
+    "district_id": null,
+    "name": "Kalaroa Paurasava",
+    "bn_name": "কলারোয়া",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95138",
+    "upazila_id": "upz-182",
+    "district_id": null,
+    "name": "Satkhira Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95139",
+    "upazila_id": "upz-187",
+    "district_id": null,
+    "name": "Meherpur Paurashava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95140",
+    "upazila_id": "upz-188",
+    "district_id": null,
+    "name": "Gangni Paurashava",
+    "bn_name": "গাংনী",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95141",
+    "upazila_id": "upz-189",
+    "district_id": null,
+    "name": "Narail Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95142",
+    "upazila_id": "upz-190",
+    "district_id": null,
+    "name": "Lohagara Paurasava",
+    "bn_name": "লোহাগড়া",
+    "category": "C",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95143",
+    "upazila_id": "upz-191",
+    "district_id": null,
+    "name": "Kalia Paurasava",
+    "bn_name": "কালিয়া",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95144",
+    "upazila_id": "upz-192",
+    "district_id": null,
+    "name": "Chuadanga Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95145",
+    "upazila_id": "upz-193",
+    "district_id": null,
+    "name": "Alamdanga Paurasava",
+    "bn_name": "আলমডাঙ্গা",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95146",
+    "upazila_id": "upz-194",
+    "district_id": null,
+    "name": "Darshana Paurasava",
+    "bn_name": null,
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95147",
+    "upazila_id": "upz-195",
+    "district_id": null,
+    "name": "Jiban Nagar Paurasava",
+    "bn_name": "জীবননগর",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95148",
+    "upazila_id": "upz-196",
+    "district_id": null,
+    "name": "Kushtia Paurashava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 12,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95149",
+    "upazila_id": "upz-197",
+    "district_id": null,
+    "name": "Kumarkhali Paurashava",
+    "bn_name": "কুমারখালী",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95150",
+    "upazila_id": "upz-198",
+    "district_id": null,
+    "name": "Khoksa Paurashava",
+    "bn_name": "খোকসা",
+    "category": "C",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95151",
+    "upazila_id": "upz-199",
+    "district_id": null,
+    "name": "Mirpur Paurashava",
+    "bn_name": "মিরপুর",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95152",
+    "upazila_id": "upz-201",
+    "district_id": null,
+    "name": "Bheramara Paurashava",
+    "bn_name": "ভেড়ামারা",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95153",
+    "upazila_id": "upz-204",
+    "district_id": null,
+    "name": "Magura Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95154",
+    "upazila_id": "upz-206",
+    "district_id": null,
+    "name": "Paikgachha Paurashava",
+    "bn_name": "পাইকগাছা",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95155",
+    "upazila_id": "upz-213",
+    "district_id": null,
+    "name": "Chalna Paurasava",
+    "bn_name": null,
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95156",
+    "upazila_id": "upz-216",
+    "district_id": null,
+    "name": "Bagerhat Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95157",
+    "upazila_id": "upz-220",
+    "district_id": null,
+    "name": "Morrelganj Paurasava",
+    "bn_name": "মোড়েলগঞ্জ",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95158",
+    "upazila_id": "upz-222",
+    "district_id": null,
+    "name": "Mongla Port Paurasava",
+    "bn_name": "মোংলা",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95159",
+    "upazila_id": "upz-224",
+    "district_id": null,
+    "name": "Jhenaidah Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95160",
+    "upazila_id": "upz-225",
+    "district_id": null,
+    "name": "Shailkupa Paurasava",
+    "bn_name": "শৈলকুপা",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95161",
+    "upazila_id": "upz-226",
+    "district_id": null,
+    "name": "Harinakunda Paurashava",
+    "bn_name": null,
+    "category": "C",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95162",
+    "upazila_id": "upz-227",
+    "district_id": null,
+    "name": "Kaliganj Paurasava",
+    "bn_name": "কালীগঞ্জ",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95163",
+    "upazila_id": "upz-228",
+    "district_id": null,
+    "name": "Kotchandpur Paurasava",
+    "bn_name": "কোটচাঁদপুর",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95164",
+    "upazila_id": "upz-229",
+    "district_id": null,
+    "name": "Maheshpur Paurasava",
+    "bn_name": "মহেশপুর",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95165",
+    "upazila_id": "upz-230",
+    "district_id": null,
+    "name": "Jhalokati Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95166",
+    "upazila_id": "upz-232",
+    "district_id": null,
+    "name": "Nalchity Paurasava",
+    "bn_name": "নলছিটি",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95167",
+    "upazila_id": "upz-234",
+    "district_id": null,
+    "name": "Bauphal Paurashava",
+    "bn_name": "বাউফল",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95168",
+    "upazila_id": "upz-235",
+    "district_id": null,
+    "name": "Patuakhali Paurashava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95169",
+    "upazila_id": "upz-238",
+    "district_id": null,
+    "name": "Kalapara Paurasava",
+    "bn_name": "কলাপাড়া",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95170",
+    "upazila_id": "upz-238",
+    "district_id": null,
+    "name": "Kuakata Paurasava",
+    "bn_name": null,
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95171",
+    "upazila_id": "upz-240",
+    "district_id": null,
+    "name": "Galachipa Paurasava",
+    "bn_name": "গলাচিপা",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95172",
+    "upazila_id": "upz-242",
+    "district_id": null,
+    "name": "Pirojpur Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95173",
+    "upazila_id": "upz-246",
+    "district_id": null,
+    "name": "Bhandaria",
+    "bn_name": "ভান্ডারিয়া",
+    "category": "C",
+    "ward_count": null,
+    "source": "lged_only"
+  },
+  {
+    "id": "pra-95174",
+    "upazila_id": "upz-247",
+    "district_id": null,
+    "name": "Mathbaria Paurasava",
+    "bn_name": "মঠবাড়ীয়া",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95175",
+    "upazila_id": "upz-248",
+    "district_id": null,
+    "name": "Swarupkati Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95176",
+    "upazila_id": "upz-250",
+    "district_id": null,
+    "name": "Bakerganj Paurasava",
+    "bn_name": "বাকেরগঞ্জ",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95177",
+    "upazila_id": "upz-252",
+    "district_id": null,
+    "name": "Wazirpur",
+    "bn_name": "উজিরপুর",
+    "category": "C",
+    "ward_count": null,
+    "source": "lged_only"
+  },
+  {
+    "id": "pra-95178",
+    "upazila_id": "upz-253",
+    "district_id": null,
+    "name": "Banari Para Paurasava",
+    "bn_name": "বানারীপাড়া",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95179",
+    "upazila_id": "upz-254",
+    "district_id": null,
+    "name": "Gaurnadi Paurasava",
+    "bn_name": "গৌরনদী",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95180",
+    "upazila_id": "upz-256",
+    "district_id": null,
+    "name": "Mhendiganj Paurasava",
+    "bn_name": "মেহেন্দিগঞ্জ",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95181",
+    "upazila_id": "upz-257",
+    "district_id": null,
+    "name": "Muladi Paurashava",
+    "bn_name": "মুলাদী",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95182",
+    "upazila_id": "upz-259",
+    "district_id": null,
+    "name": "Bhola Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95183",
+    "upazila_id": "upz-260",
+    "district_id": null,
+    "name": "Burhanuddin Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95184",
+    "upazila_id": "upz-261",
+    "district_id": null,
+    "name": "Char Fasson Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95185",
+    "upazila_id": "upz-262",
+    "district_id": null,
+    "name": "Daulatkhan Paurasava",
+    "bn_name": "দৌলতখান",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95186",
+    "upazila_id": "upz-265",
+    "district_id": null,
+    "name": "Lalmohan Paurasava",
+    "bn_name": "লালমোহন",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95187",
+    "upazila_id": "upz-266",
+    "district_id": null,
+    "name": "Amtali Paurasava",
+    "bn_name": "আমতলী",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95188",
+    "upazila_id": "upz-267",
+    "district_id": null,
+    "name": "Barguna Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95189",
+    "upazila_id": "upz-268",
+    "district_id": null,
+    "name": "Betagi Paurasava",
+    "bn_name": "বেতাগী",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95190",
+    "upazila_id": "upz-270",
+    "district_id": null,
+    "name": "Patharghata Paurasava",
+    "bn_name": null,
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95191",
+    "upazila_id": "upz-273",
+    "district_id": null,
+    "name": "Beani Bazar Paurashava",
+    "bn_name": "বিয়ানীবাজার",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95192",
+    "upazila_id": "upz-277",
+    "district_id": null,
+    "name": "Golapganj Paurashava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95193",
+    "upazila_id": "upz-280",
+    "district_id": null,
+    "name": "Kanaighat Paurashava",
+    "bn_name": "কানাইঘাট",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95194",
+    "upazila_id": "upz-282",
+    "district_id": null,
+    "name": "Zakiganj Paurashava",
+    "bn_name": null,
+    "category": "C",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95195",
+    "upazila_id": "upz-285",
+    "district_id": null,
+    "name": "Barlekha Paurashava",
+    "bn_name": "বড়লেখা",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95196",
+    "upazila_id": "upz-286",
+    "district_id": null,
+    "name": "Kamalganj Paurashava",
+    "bn_name": "কমলগঞ্জ",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95197",
+    "upazila_id": "upz-287",
+    "district_id": null,
+    "name": "Kulaura Paurashava",
+    "bn_name": "কুলাউড়া",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95198",
+    "upazila_id": "upz-288",
+    "district_id": null,
+    "name": "Maulvibazar Paurashava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95199",
+    "upazila_id": "upz-290",
+    "district_id": null,
+    "name": "Sreemangal Paurashava",
+    "bn_name": "শ্রীমঙ্গল",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95200",
+    "upazila_id": "upz-292",
+    "district_id": null,
+    "name": "Nabiganj Paurashava",
+    "bn_name": "নবীগঞ্জ",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95201",
+    "upazila_id": "upz-294",
+    "district_id": null,
+    "name": "Ajmiriganj Paurashava",
+    "bn_name": "আজমিরীগঞ্জ",
+    "category": "C",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95202",
+    "upazila_id": "upz-297",
+    "district_id": null,
+    "name": "Chunarughat Paurashava",
+    "bn_name": "চুনারুঘাট",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95203",
+    "upazila_id": "upz-298",
+    "district_id": null,
+    "name": "Habiganj Paurashava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95204",
+    "upazila_id": "upz-298",
+    "district_id": null,
+    "name": "Shayestagang Paurashava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95205",
+    "upazila_id": "upz-299",
+    "district_id": null,
+    "name": "Madhabpur Paurashava",
+    "bn_name": "মাধবপুর",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95206",
+    "upazila_id": "upz-300",
+    "district_id": null,
+    "name": "Sunamganj Paurashava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95207",
+    "upazila_id": "upz-303",
+    "district_id": null,
+    "name": "Chhatak Paurashava",
+    "bn_name": "ছাতক",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95208",
+    "upazila_id": "upz-304",
+    "district_id": null,
+    "name": "Jagannathpur Paurashava",
+    "bn_name": "জগন্নাথপুর",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95209",
+    "upazila_id": "upz-310",
+    "district_id": null,
+    "name": "Derai Paurashava",
+    "bn_name": "দিরাই",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95210",
+    "upazila_id": "upz-312",
+    "district_id": null,
+    "name": "Manohardi Paurashava",
+    "bn_name": "মনোহরদী",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95211",
+    "upazila_id": "upz-313",
+    "district_id": null,
+    "name": "Narsingdi Paurashava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95212",
+    "upazila_id": "upz-313",
+    "district_id": null,
+    "name": "Madhabdi Paurashava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95213",
+    "upazila_id": "upz-314",
+    "district_id": null,
+    "name": "Ghorashal Paurashava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95214",
+    "upazila_id": "upz-315",
+    "district_id": null,
+    "name": "Roypura Paurashava",
+    "bn_name": "রায়পুরা",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95215",
+    "upazila_id": "upz-316",
+    "district_id": null,
+    "name": "Shibpur Paurashava",
+    "bn_name": "শিবপুর",
+    "category": "C",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95216",
+    "upazila_id": "upz-317",
+    "district_id": null,
+    "name": "Kaliganj Paurashava",
+    "bn_name": "কালীগঞ্জ",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95217",
+    "upazila_id": "upz-318",
+    "district_id": null,
+    "name": "Kaliakair Paurashava",
+    "bn_name": "কালিয়াকৈর",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95218",
+    "upazila_id": "upz-321",
+    "district_id": null,
+    "name": "Sreepur Paurashava",
+    "bn_name": "শ্রীপুর",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95219",
+    "upazila_id": "upz-322",
+    "district_id": null,
+    "name": "Shariatpur Paurashava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95220",
+    "upazila_id": "upz-323",
+    "district_id": null,
+    "name": "Naria Paurashava",
+    "bn_name": "নড়িয়া",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95221",
+    "upazila_id": "upz-324",
+    "district_id": null,
+    "name": "Zanjira Paurashava",
+    "bn_name": "জাজিরা",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95222",
+    "upazila_id": "upz-325",
+    "district_id": null,
+    "name": "Gosairhat",
+    "bn_name": "গোসাইরহাট",
+    "category": "C",
+    "ward_count": null,
+    "source": "lged_only"
+  },
+  {
+    "id": "pra-95223",
+    "upazila_id": "upz-326",
+    "district_id": null,
+    "name": "Bhedarganj Paurashava",
+    "bn_name": "ভেদরগঞ্জ",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95224",
+    "upazila_id": "upz-327",
+    "district_id": null,
+    "name": "Damudya Paurashava",
+    "bn_name": "ডামুড্যা",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95225",
+    "upazila_id": "upz-328",
+    "district_id": null,
+    "name": "Araihazar Paurashava",
+    "bn_name": "আড়াইহাজার",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95226",
+    "upazila_id": "upz-328",
+    "district_id": null,
+    "name": "Gopaldi Paurashava",
+    "bn_name": null,
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95227",
+    "upazila_id": "upz-331",
+    "district_id": null,
+    "name": "Tarabo Paurashava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95228",
+    "upazila_id": "upz-331",
+    "district_id": null,
+    "name": "Kanchan Paurashava",
+    "bn_name": null,
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95229",
+    "upazila_id": "upz-332",
+    "district_id": null,
+    "name": "Sonargaon Paurashava",
+    "bn_name": "সোনারগাঁ",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95230",
+    "upazila_id": "upz-333",
+    "district_id": null,
+    "name": "Basail Paurashava",
+    "bn_name": "বাসাইল",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95231",
+    "upazila_id": "upz-334",
+    "district_id": null,
+    "name": "Bhuapur Paurashava",
+    "bn_name": "ভুয়াপুর",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95232",
+    "upazila_id": "upz-336",
+    "district_id": null,
+    "name": "Ghatail Paurashava",
+    "bn_name": "ঘাটাইল",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95233",
+    "upazila_id": "upz-337",
+    "district_id": null,
+    "name": "Gopalpur Paurashava",
+    "bn_name": "গোপালপুর",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95234",
+    "upazila_id": "upz-338",
+    "district_id": null,
+    "name": "Madhupur Paurashava",
+    "bn_name": "মধুপুর",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95235",
+    "upazila_id": "upz-339",
+    "district_id": null,
+    "name": "Mirzapur Paurashava",
+    "bn_name": "মির্জাপুর",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95236",
+    "upazila_id": "upz-341",
+    "district_id": null,
+    "name": "Sakhipur Paurashava",
+    "bn_name": "সখিপুর",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95237",
+    "upazila_id": "upz-342",
+    "district_id": null,
+    "name": "Tangail Paurashava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 18,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95238",
+    "upazila_id": "upz-343",
+    "district_id": null,
+    "name": "Kalihati Paurashava",
+    "bn_name": "কালিহাতী",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95239",
+    "upazila_id": "upz-343",
+    "district_id": null,
+    "name": "Elenga Paurashava",
+    "bn_name": null,
+    "category": "C",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95240",
+    "upazila_id": "upz-344",
+    "district_id": null,
+    "name": "Dhanbari Paurasava",
+    "bn_name": "ধনবাড়ী",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95241",
+    "upazila_id": "upz-346",
+    "district_id": null,
+    "name": "Katiadi Paurashava",
+    "bn_name": "কটিয়াদী",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95242",
+    "upazila_id": "upz-347",
+    "district_id": null,
+    "name": "Bhairab Paurashava",
+    "bn_name": "ভৈরব",
+    "category": "A",
+    "ward_count": 12,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95243",
+    "upazila_id": "upz-349",
+    "district_id": null,
+    "name": "Hossainpur Paurashava",
+    "bn_name": "হোসেনপুর",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95244",
+    "upazila_id": "upz-350",
+    "district_id": null,
+    "name": "Pakundia Paurashava",
+    "bn_name": "পাকুন্দিয়া",
+    "category": "C",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95245",
+    "upazila_id": "upz-351",
+    "district_id": null,
+    "name": "Kuliar Char Paurashava",
+    "bn_name": "কুলিয়ারচর",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95246",
+    "upazila_id": "upz-352",
+    "district_id": null,
+    "name": "Kishoreganj Paurashava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95247",
+    "upazila_id": "upz-353",
+    "district_id": null,
+    "name": "Karimganj Paurashava",
+    "bn_name": "করিমগঞ্জ",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95248",
+    "upazila_id": "upz-354",
+    "district_id": null,
+    "name": "Bajitpur Paurashava",
+    "bn_name": "বাজিতপুর",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95249",
+    "upazila_id": "upz-360",
+    "district_id": null,
+    "name": "Manikganj Paurashava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95250",
+    "upazila_id": "upz-364",
+    "district_id": null,
+    "name": "Singair Paurashava",
+    "bn_name": null,
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95251",
+    "upazila_id": "upz-365",
+    "district_id": null,
+    "name": "Savar Paurashava",
+    "bn_name": "সাভার",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95252",
+    "upazila_id": "upz-366",
+    "district_id": null,
+    "name": "Dhamrai Paurashava",
+    "bn_name": "ধামরাই",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95253",
+    "upazila_id": "upz-369",
+    "district_id": null,
+    "name": "Dohar Paurashava",
+    "bn_name": "দোহার",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95254",
+    "upazila_id": "upz-370",
+    "district_id": null,
+    "name": "Munshiganj Paurashava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95255",
+    "upazila_id": "upz-370",
+    "district_id": null,
+    "name": "Mirkadim Paurashava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95256",
+    "upazila_id": "upz-376",
+    "district_id": null,
+    "name": "Rajbari Paurashava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95257",
+    "upazila_id": "upz-377",
+    "district_id": null,
+    "name": "Goalandaghat Paurashava",
+    "bn_name": "গোয়ালন্দ",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95258",
+    "upazila_id": "upz-378",
+    "district_id": null,
+    "name": "Pangsha Paurashava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95259",
+    "upazila_id": "upz-381",
+    "district_id": null,
+    "name": "Madaripur Paurashava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95260",
+    "upazila_id": "upz-382",
+    "district_id": null,
+    "name": "Shibchar Paurashava",
+    "bn_name": "শিবচর",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95261",
+    "upazila_id": "upz-383",
+    "district_id": null,
+    "name": "Kalkini Paurashava",
+    "bn_name": "কালকিনি",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95262",
+    "upazila_id": "upz-384",
+    "district_id": null,
+    "name": "Rajoir Paurashava",
+    "bn_name": "রাজৈর",
+    "category": "C",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95263",
+    "upazila_id": "upz-385",
+    "district_id": null,
+    "name": "Gopalganj Paurashava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95264",
+    "upazila_id": "upz-387",
+    "district_id": null,
+    "name": "Tungipara Paurashava",
+    "bn_name": "টুংগীপাড়া",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95265",
+    "upazila_id": "upz-388",
+    "district_id": null,
+    "name": "Kotalipara Paurashava",
+    "bn_name": "কোটালীপাড়া",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95266",
+    "upazila_id": "upz-389",
+    "district_id": null,
+    "name": "Muksudpur Paurashava",
+    "bn_name": "মুকসুদপুর",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95267",
+    "upazila_id": "upz-390",
+    "district_id": null,
+    "name": "Faridpur Paurashava",
+    "bn_name": "ফরিদপুর",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95268",
+    "upazila_id": "upz-391",
+    "district_id": null,
+    "name": "Alfadanga",
+    "bn_name": "আলফাডাঙ্গা",
+    "category": "C",
+    "ward_count": null,
+    "source": "lged_only"
+  },
+  {
+    "id": "pra-95269",
+    "upazila_id": "upz-392",
+    "district_id": null,
+    "name": "Boalmari Paurashava",
+    "bn_name": "বোয়ালমারী",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95270",
+    "upazila_id": "upz-394",
+    "district_id": null,
+    "name": "Nagarkanda Paurashava",
+    "bn_name": "নগরকান্দা",
+    "category": "C",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95271",
+    "upazila_id": "upz-395",
+    "district_id": null,
+    "name": "Bhanga Paurashava",
+    "bn_name": "ভাঙ্গা",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95272",
+    "upazila_id": "upz-397",
+    "district_id": null,
+    "name": "Madhukhali",
+    "bn_name": "মধুখালী",
+    "category": "B",
+    "ward_count": null,
+    "source": "lged_only"
+  },
+  {
+    "id": "pra-95273",
+    "upazila_id": "upz-399",
+    "district_id": null,
+    "name": "Panchagarh Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95274",
+    "upazila_id": "upz-400",
+    "district_id": null,
+    "name": "Debiganj",
+    "bn_name": "দেবীগঞ্জ",
+    "category": "C",
+    "ward_count": null,
+    "source": "lged_only"
+  },
+  {
+    "id": "pra-95275",
+    "upazila_id": "upz-401",
+    "district_id": null,
+    "name": "Boda Paurashava",
+    "bn_name": "বোদা",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95276",
+    "upazila_id": "upz-405",
+    "district_id": null,
+    "name": "Birganj Paurashava",
+    "bn_name": "বীরগঞ্জ",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95277",
+    "upazila_id": "upz-406",
+    "district_id": null,
+    "name": "Ghoraghat Paurashava",
+    "bn_name": "ঘোড়াঘাট",
+    "category": "C",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95278",
+    "upazila_id": "upz-407",
+    "district_id": null,
+    "name": "Birampur Paurasava",
+    "bn_name": "বিরামপুর",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95279",
+    "upazila_id": "upz-408",
+    "district_id": null,
+    "name": "Parbatipur Paurasava",
+    "bn_name": "পার্বতীপুর",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95280",
+    "upazila_id": "upz-409",
+    "district_id": null,
+    "name": "Setabganj Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95281",
+    "upazila_id": "upz-411",
+    "district_id": null,
+    "name": "Fulbari Paurasava",
+    "bn_name": "ফুলবাড়ী",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95282",
+    "upazila_id": "upz-412",
+    "district_id": null,
+    "name": "Dinajpur Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 12,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95283",
+    "upazila_id": "upz-413",
+    "district_id": null,
+    "name": "Hakimpur Paurasava",
+    "bn_name": "হাকিমপুর",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95284",
+    "upazila_id": null,
+    "district_id": "dis-54",
+    "name": "Biral",
+    "bn_name": null,
+    "category": "C",
+    "ward_count": null,
+    "source": "lged_only"
+  },
+  {
+    "id": "pra-95285",
+    "upazila_id": "upz-417",
+    "district_id": null,
+    "name": "Lalmonirhat Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95286",
+    "upazila_id": "upz-420",
+    "district_id": null,
+    "name": "Patgram Paurasava",
+    "bn_name": "পাটগ্রাম",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95287",
+    "upazila_id": "upz-422",
+    "district_id": null,
+    "name": "Saidpur Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 15,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95288",
+    "upazila_id": "upz-423",
+    "district_id": null,
+    "name": "Domar Paurasava",
+    "bn_name": "ডোমার",
+    "category": "C",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95289",
+    "upazila_id": "upz-425",
+    "district_id": null,
+    "name": "Jaldhaka Paurashava",
+    "bn_name": "জলঢাকা",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95290",
+    "upazila_id": "upz-427",
+    "district_id": null,
+    "name": "Nilphamari Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95291",
+    "upazila_id": "upz-429",
+    "district_id": null,
+    "name": "Gaibandha Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95292",
+    "upazila_id": "upz-430",
+    "district_id": null,
+    "name": "Palashbari",
+    "bn_name": "পলাশবাড়ী",
+    "category": "C",
+    "ward_count": null,
+    "source": "lged_only"
+  },
+  {
+    "id": "pra-95293",
+    "upazila_id": "upz-430",
+    "district_id": null,
+    "name": "Palashbari Paurashav",
+    "bn_name": null,
+    "category": null,
+    "ward_count": 1,
+    "source": "bbs_only"
+  },
+  {
+    "id": "pra-95294",
+    "upazila_id": "upz-432",
+    "district_id": null,
+    "name": "Gobindaganj Paurasava",
+    "bn_name": "গোবিন্দগঞ্জ",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95295",
+    "upazila_id": "upz-433",
+    "district_id": null,
+    "name": "Sundarganj Paurashava",
+    "bn_name": "সুন্দরগঞ্জ",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95296",
+    "upazila_id": "upz-435",
+    "district_id": null,
+    "name": "Thakurgaon Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 12,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95297",
+    "upazila_id": "upz-436",
+    "district_id": null,
+    "name": "Pirganj Paurasava",
+    "bn_name": "পীরগঞ্জ",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95298",
+    "upazila_id": "upz-437",
+    "district_id": null,
+    "name": "Ranisankail Paurashava",
+    "bn_name": "রাণীশংকৈল",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95299",
+    "upazila_id": "upz-443",
+    "district_id": null,
+    "name": "Badarganj Paurasava",
+    "bn_name": "বদরগঞ্জ",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95300",
+    "upazila_id": "upz-446",
+    "district_id": null,
+    "name": "Haragachh (Kaunia) Paurasava",
+    "bn_name": null,
+    "category": null,
+    "ward_count": 9,
+    "source": "bbs_only"
+  },
+  {
+    "id": "pra-95301",
+    "upazila_id": null,
+    "district_id": "dis-59",
+    "name": "Haragach",
+    "bn_name": null,
+    "category": "C",
+    "ward_count": null,
+    "source": "lged_only"
+  },
+  {
+    "id": "pra-95302",
+    "upazila_id": null,
+    "district_id": "dis-59",
+    "name": "Pirganj",
+    "bn_name": "পীরগঞ্জ",
+    "category": "C",
+    "ward_count": null,
+    "source": "lged_only"
+  },
+  {
+    "id": "pra-95303",
+    "upazila_id": "upz-448",
+    "district_id": null,
+    "name": "Kurigram Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95304",
+    "upazila_id": "upz-449",
+    "district_id": null,
+    "name": "Nageshwari Paurashava",
+    "bn_name": "নাগেশ্বরী",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95305",
+    "upazila_id": "upz-453",
+    "district_id": null,
+    "name": "Ulipur Paurasava",
+    "bn_name": "উলিপুর",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95306",
+    "upazila_id": "upz-457",
+    "district_id": null,
+    "name": "Sherpur Paurashava",
+    "bn_name": "শেরপুর",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95307",
+    "upazila_id": "upz-458",
+    "district_id": null,
+    "name": "Nalitabari Paurashava",
+    "bn_name": "নালিতাবাড়ী",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95308",
+    "upazila_id": "upz-459",
+    "district_id": null,
+    "name": "Sreebardi Paurashava",
+    "bn_name": "শ্রীবরদী",
+    "category": "C",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95309",
+    "upazila_id": "upz-460",
+    "district_id": null,
+    "name": "Nakla Paurashava",
+    "bn_name": "নকলা",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95310",
+    "upazila_id": "upz-462",
+    "district_id": null,
+    "name": "Fulbaria Paurashava",
+    "bn_name": "ফুলবাড়ীয়া",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95311",
+    "upazila_id": "upz-463",
+    "district_id": null,
+    "name": "Trishal Paurashava",
+    "bn_name": "ত্রিশাল",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95312",
+    "upazila_id": "upz-464",
+    "district_id": null,
+    "name": "Bhaluka Paurashava",
+    "bn_name": "ভালুকা",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95313",
+    "upazila_id": "upz-465",
+    "district_id": null,
+    "name": "Muktagachha Paurashava",
+    "bn_name": "মুক্তাগাছা",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95314",
+    "upazila_id": "upz-466",
+    "district_id": null,
+    "name": "Mymensingh Paurashava",
+    "bn_name": null,
+    "category": null,
+    "ward_count": 21,
+    "source": "bbs_only"
+  },
+  {
+    "id": "pra-95315",
+    "upazila_id": "upz-468",
+    "district_id": null,
+    "name": "Phulpur Paurashava",
+    "bn_name": "ফুলপুর",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95316",
+    "upazila_id": "upz-469",
+    "district_id": null,
+    "name": "Haluaghat",
+    "bn_name": "হালুয়াঘাট",
+    "category": "C",
+    "ward_count": null,
+    "source": "lged_only"
+  },
+  {
+    "id": "pra-95317",
+    "upazila_id": "upz-470",
+    "district_id": null,
+    "name": "Gauripur Paurashava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95318",
+    "upazila_id": "upz-471",
+    "district_id": null,
+    "name": "Gaffargaon Paurashava",
+    "bn_name": "গফরগাঁও",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95319",
+    "upazila_id": "upz-472",
+    "district_id": null,
+    "name": "Ishwarganj Paurashava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95320",
+    "upazila_id": "upz-473",
+    "district_id": null,
+    "name": "Nandail Paurashava",
+    "bn_name": "নান্দাইল",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95321",
+    "upazila_id": "upz-475",
+    "district_id": null,
+    "name": "Jamalpur Paurashava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 12,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95322",
+    "upazila_id": "upz-476",
+    "district_id": null,
+    "name": "Melandaha Paurashava",
+    "bn_name": "মেলান্দহ",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95323",
+    "upazila_id": "upz-477",
+    "district_id": null,
+    "name": "Islampur Paurashava",
+    "bn_name": "ইসলামপুর",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95324",
+    "upazila_id": "upz-478",
+    "district_id": null,
+    "name": "Dewanganj Paurashava",
+    "bn_name": "দেওয়ানগঞ্জ",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95325",
+    "upazila_id": "upz-479",
+    "district_id": null,
+    "name": "Sarishabari Paurashava",
+    "bn_name": "সরিষাবাড়ী",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95326",
+    "upazila_id": "upz-480",
+    "district_id": null,
+    "name": "Madarganj Paurashava",
+    "bn_name": "মাদারগঞ্জ",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95327",
+    "upazila_id": null,
+    "district_id": "dis-63",
+    "name": "Bokshigonj",
+    "bn_name": null,
+    "category": "C",
+    "ward_count": null,
+    "source": "lged_only"
+  },
+  {
+    "id": "pra-95328",
+    "upazila_id": null,
+    "district_id": "dis-63",
+    "name": "Hazrabari",
+    "bn_name": null,
+    "category": "C",
+    "ward_count": null,
+    "source": "lged_only"
+  },
+  {
+    "id": "pra-95329",
+    "upazila_id": "upz-483",
+    "district_id": null,
+    "name": "Durgapur Paurasava",
+    "bn_name": "দুর্গাপুর",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95330",
+    "upazila_id": "upz-484",
+    "district_id": null,
+    "name": "Kendua Paurasava",
+    "bn_name": "কেন্দুয়া",
+    "category": "C",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95331",
+    "upazila_id": "upz-486",
+    "district_id": null,
+    "name": "Madan Paurasava",
+    "bn_name": "মদন",
+    "category": "B",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95332",
+    "upazila_id": "upz-489",
+    "district_id": null,
+    "name": "Mohanganj Paurasava",
+    "bn_name": "মোহনগঞ্জ",
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  },
+  {
+    "id": "pra-95333",
+    "upazila_id": "upz-491",
+    "district_id": null,
+    "name": "Netrokona Paurasava",
+    "bn_name": null,
+    "category": "A",
+    "ward_count": 9,
+    "source": "bbs+lged"
+  }
+]

@@ -1,0 +1,302 @@
+[
+  {
+    "id": "thn-91000",
+    "city_corporation_id": "cc-90009",
+    "name": "Turag",
+    "bn_name": "তুরাগ"
+  },
+  {
+    "id": "thn-91001",
+    "city_corporation_id": "cc-90009",
+    "name": "Uttara West",
+    "bn_name": "উত্তরা পশ্চিম"
+  },
+  {
+    "id": "thn-91002",
+    "city_corporation_id": "cc-90009",
+    "name": "Uttara East",
+    "bn_name": "উত্তরা পূর্ব"
+  },
+  {
+    "id": "thn-91003",
+    "city_corporation_id": "cc-90009",
+    "name": "Uttarkhan",
+    "bn_name": "উত্তরখান"
+  },
+  {
+    "id": "thn-91004",
+    "city_corporation_id": "cc-90009",
+    "name": "Dakshinkhan",
+    "bn_name": "দক্ষিণখান"
+  },
+  {
+    "id": "thn-91005",
+    "city_corporation_id": "cc-90009",
+    "name": "Bimanbandar",
+    "bn_name": "বিমানবন্দর"
+  },
+  {
+    "id": "thn-91006",
+    "city_corporation_id": "cc-90009",
+    "name": "Khilkhet",
+    "bn_name": "খিলক্ষেত"
+  },
+  {
+    "id": "thn-91007",
+    "city_corporation_id": "cc-90009",
+    "name": "Vatara",
+    "bn_name": "ভাটারা"
+  },
+  {
+    "id": "thn-91008",
+    "city_corporation_id": "cc-90009",
+    "name": "Badda",
+    "bn_name": "বাড্ডা"
+  },
+  {
+    "id": "thn-91009",
+    "city_corporation_id": "cc-90009",
+    "name": "Rampura",
+    "bn_name": "রামপুরা"
+  },
+  {
+    "id": "thn-91010",
+    "city_corporation_id": "cc-90009",
+    "name": "Hatirjheel",
+    "bn_name": "হাতিরঝিল"
+  },
+  {
+    "id": "thn-91011",
+    "city_corporation_id": "cc-90009",
+    "name": "Tejgaon I/A",
+    "bn_name": "তেজগাঁও শিল্প এলাকা"
+  },
+  {
+    "id": "thn-91012",
+    "city_corporation_id": "cc-90009",
+    "name": "Tejgaon",
+    "bn_name": "তেজগাঁও"
+  },
+  {
+    "id": "thn-91013",
+    "city_corporation_id": "cc-90009",
+    "name": "Sher-e-Bangla Nagar",
+    "bn_name": "শের-ই-বাংলা নগর"
+  },
+  {
+    "id": "thn-91014",
+    "city_corporation_id": "cc-90009",
+    "name": "Mohammadpur",
+    "bn_name": "মোহাম্মদপুর"
+  },
+  {
+    "id": "thn-91015",
+    "city_corporation_id": "cc-90009",
+    "name": "Adabor",
+    "bn_name": "আদাবর"
+  },
+  {
+    "id": "thn-91016",
+    "city_corporation_id": "cc-90009",
+    "name": "Darussalam",
+    "bn_name": "দারুসসালাম"
+  },
+  {
+    "id": "thn-91017",
+    "city_corporation_id": "cc-90009",
+    "name": "Mirpur",
+    "bn_name": "মিরপুর"
+  },
+  {
+    "id": "thn-91018",
+    "city_corporation_id": "cc-90009",
+    "name": "Pallabi",
+    "bn_name": "পল্লবী"
+  },
+  {
+    "id": "thn-91019",
+    "city_corporation_id": "cc-90009",
+    "name": "Rupnagar",
+    "bn_name": "রূপনগর"
+  },
+  {
+    "id": "thn-91020",
+    "city_corporation_id": "cc-90009",
+    "name": "Shah Ali",
+    "bn_name": "শাহ আলী"
+  },
+  {
+    "id": "thn-91021",
+    "city_corporation_id": "cc-90009",
+    "name": "Kafrul",
+    "bn_name": "কাফরুল"
+  },
+  {
+    "id": "thn-91022",
+    "city_corporation_id": "cc-90009",
+    "name": "Bhashantek",
+    "bn_name": "ভাষানটেক"
+  },
+  {
+    "id": "thn-91023",
+    "city_corporation_id": "cc-90009",
+    "name": "Cantonment",
+    "bn_name": "ক্যান্টনমেন্ট"
+  },
+  {
+    "id": "thn-91024",
+    "city_corporation_id": "cc-90009",
+    "name": "Banani",
+    "bn_name": "বনানী"
+  },
+  {
+    "id": "thn-91025",
+    "city_corporation_id": "cc-90009",
+    "name": "Gulshan",
+    "bn_name": "গুলশান"
+  },
+  {
+    "id": "thn-91026",
+    "city_corporation_id": "cc-90010",
+    "name": "Paltan",
+    "bn_name": "পল্টন"
+  },
+  {
+    "id": "thn-91027",
+    "city_corporation_id": "cc-90010",
+    "name": "Motijheel",
+    "bn_name": "মতিঝিল"
+  },
+  {
+    "id": "thn-91028",
+    "city_corporation_id": "cc-90010",
+    "name": "Sabujbagh",
+    "bn_name": "সবুজবাগ"
+  },
+  {
+    "id": "thn-91029",
+    "city_corporation_id": "cc-90010",
+    "name": "Khilgaon",
+    "bn_name": "খিলগাঁও"
+  },
+  {
+    "id": "thn-91030",
+    "city_corporation_id": "cc-90010",
+    "name": "Mugda",
+    "bn_name": "মুগদা"
+  },
+  {
+    "id": "thn-91031",
+    "city_corporation_id": "cc-90010",
+    "name": "Shahjahanpur",
+    "bn_name": "শাহজাহানপুর"
+  },
+  {
+    "id": "thn-91032",
+    "city_corporation_id": "cc-90010",
+    "name": "Shyampur",
+    "bn_name": "শ্যামপুর"
+  },
+  {
+    "id": "thn-91033",
+    "city_corporation_id": "cc-90010",
+    "name": "Jatrabari",
+    "bn_name": "যাত্রাবাড়ী"
+  },
+  {
+    "id": "thn-91034",
+    "city_corporation_id": "cc-90010",
+    "name": "Demra",
+    "bn_name": "ডেমরা"
+  },
+  {
+    "id": "thn-91035",
+    "city_corporation_id": "cc-90010",
+    "name": "Kadamtali",
+    "bn_name": "কদমতলী"
+  },
+  {
+    "id": "thn-91036",
+    "city_corporation_id": "cc-90010",
+    "name": "Gandaria",
+    "bn_name": "গেন্ডারিয়া"
+  },
+  {
+    "id": "thn-91037",
+    "city_corporation_id": "cc-90010",
+    "name": "Wari",
+    "bn_name": "ওয়ারী"
+  },
+  {
+    "id": "thn-91038",
+    "city_corporation_id": "cc-90010",
+    "name": "Ramna",
+    "bn_name": "রমনা"
+  },
+  {
+    "id": "thn-91039",
+    "city_corporation_id": "cc-90010",
+    "name": "New Market",
+    "bn_name": "নিউমার্কেট"
+  },
+  {
+    "id": "thn-91040",
+    "city_corporation_id": "cc-90010",
+    "name": "Shahbag",
+    "bn_name": "শাহবাগ"
+  },
+  {
+    "id": "thn-91041",
+    "city_corporation_id": "cc-90010",
+    "name": "Dhanmondi",
+    "bn_name": "ধানমন্ডি"
+  },
+  {
+    "id": "thn-91042",
+    "city_corporation_id": "cc-90010",
+    "name": "Hazaribagh",
+    "bn_name": "হাজারীবাগ"
+  },
+  {
+    "id": "thn-91043",
+    "city_corporation_id": "cc-90010",
+    "name": "Kalabagan",
+    "bn_name": "কলাবাগান"
+  },
+  {
+    "id": "thn-91044",
+    "city_corporation_id": "cc-90010",
+    "name": "Kotwali",
+    "bn_name": "কোতোয়ালী"
+  },
+  {
+    "id": "thn-91045",
+    "city_corporation_id": "cc-90010",
+    "name": "Sutrapur",
+    "bn_name": "সূত্রাপুর"
+  },
+  {
+    "id": "thn-91046",
+    "city_corporation_id": "cc-90010",
+    "name": "Lalbagh",
+    "bn_name": "লালবাগ"
+  },
+  {
+    "id": "thn-91047",
+    "city_corporation_id": "cc-90010",
+    "name": "Bangsal",
+    "bn_name": "বংশাল"
+  },
+  {
+    "id": "thn-91048",
+    "city_corporation_id": "cc-90010",
+    "name": "Chawkbazar",
+    "bn_name": "চকবাজার"
+  },
+  {
+    "id": "thn-91049",
+    "city_corporation_id": "cc-90010",
+    "name": "Kamrangirchar",
+    "bn_name": "কামরাঙ্গীরচর"
+  }
+]

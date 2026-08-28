@@ -1,0 +1,35 @@
+{
+  "name": "bd-geo-api",
+  "version": "1.0.0",
+  "description": "REST API for Bangladesh administrative geography — division, district, upazila, union, ward, pourashava, and city corporation data, bilingual (EN/BN).",
+  "main": "src/server.js",
+  "type": "commonjs",
+  "engines": {
+    "node": ">=18.0.0"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node --watch src/server.js",
+    "test": "node --test test/smoke.test.js"
+  },
+  "keywords": [
+    "bangladesh",
+    "geo",
+    "geography",
+    "administrative",
+    "division",
+    "district",
+    "upazila",
+    "union",
+    "pourashava",
+    "city-corporation",
+    "api"
+  ],
+  "license": "MIT",
+  "dependencies": {
+    "compression": "^1.7.4",
+    "cors": "^2.8.5",
+    "express": "^4.19.2",
+    "express-rate-limit": "^7.4.0"
+  }
+}

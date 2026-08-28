@@ -1,0 +1,80 @@
+[
+  {
+    "id": "cc-90000",
+    "district_id": "dis-1",
+    "name": "Cumilla City Corporation",
+    "bn_name": "কুমিল্লা সিটি কর্পোরেশন"
+  },
+  {
+    "id": "cc-90001",
+    "district_id": "dis-8",
+    "name": "Chattogram City Corporation",
+    "bn_name": "চট্টগ্রাম সিটি কর্পোরেশন"
+  },
+  {
+    "id": "cc-90002",
+    "district_id": "dis-14",
+    "name": "Bogura City Corporation",
+    "bn_name": "বগুড়া সিটি কর্পোরেশন"
+  },
+  {
+    "id": "cc-90003",
+    "district_id": "dis-15",
+    "name": "Rajshahi City Corporation",
+    "bn_name": "রাজশাহী সিটি কর্পোরেশন"
+  },
+  {
+    "id": "cc-90004",
+    "district_id": "dis-27",
+    "name": "Khulna City Corporation",
+    "bn_name": "খুলনা সিটি কর্পোরেশন"
+  },
+  {
+    "id": "cc-90005",
+    "district_id": "dis-33",
+    "name": "Barisal City Corporation",
+    "bn_name": "বরিশাল সিটি কর্পোরেশন"
+  },
+  {
+    "id": "cc-90006",
+    "district_id": "dis-36",
+    "name": "Sylhet City Corporation",
+    "bn_name": "সিলেট সিটি কর্পোরেশন"
+  },
+  {
+    "id": "cc-90007",
+    "district_id": "dis-41",
+    "name": "Gazipur City Corporation",
+    "bn_name": "গাজীপুর সিটি কর্পোরেশন"
+  },
+  {
+    "id": "cc-90008",
+    "district_id": "dis-43",
+    "name": "Narayanganj City Corporation",
+    "bn_name": "নারায়ণগঞ্জ সিটি কর্পোরেশন"
+  },
+  {
+    "id": "cc-90009",
+    "district_id": "dis-47",
+    "name": "Dhaka North City Corporation",
+    "bn_name": "ঢাকা উত্তর সিটি কর্পোরেশন"
+  },
+  {
+    "id": "cc-90010",
+    "district_id": "dis-47",
+    "name": "Dhaka South City Corporation",
+    "bn_name": "ঢাকা দক্ষিণ সিটি কর্পোরেশন"
+  },
+  {
+    "id": "cc-90011",
+    "district_id": "dis-59",
+    "name": "Rangpur City Corporation",
+    "bn_name": "রংপুর সিটি কর্পোরেশন"
+  },
+  {
+    "id": "cc-90012",
+    "district_id": "dis-62",
+    "name": "Mymensingh City Corporation",
+    "bn_name": "ময়মনসিংহ সিটি কর্পোরেশন"
+  }
+]

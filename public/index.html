@@ -1,0 +1,449 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>bd-geo-api — tree view</title>
+<style>
+  @import url('https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,400;9..144,600;9..144,700&family=IBM+Plex+Sans:wght@400;500;600&family=IBM+Plex+Mono:wght@400;500;600&family=Noto+Sans+Bengali:wght@400;500;600&display=swap');
+
+  :root {
+    --paper: #EEF1EA;
+    --panel: #F7F8F4;
+    --ink: #22271F;
+    --ink-soft: #66705F;
+    --rule: #D7DCC9;
+    --hilite: #F1D98B;
+    --div: #B8862B;
+    --dis: #1F3A2E;
+    --upz: #2C6E63;
+    --uni: #9B2C2C;
+    --cc: #7A3B69;
+    --thn: #C1704B;
+    --wrd: #6E7B8B;
+    --pra: #3B6E91;
+    --hosp: #A6532C;
+  }
+  * { box-sizing: border-box; }
+  body {
+    margin: 0;
+    background: var(--paper);
+    color: var(--ink);
+    font-family: 'IBM Plex Sans', sans-serif;
+  }
+  .wrap { max-width: 900px; margin: 0 auto; padding: 40px 20px 64px; }
+  .eyebrow {
+    font-family: 'IBM Plex Mono', monospace;
+    font-size: 11px; letter-spacing: 0.14em; color: var(--div);
+    font-weight: 600; margin-bottom: 6px;
+  }
+  h1 {
+    font-family: 'Fraunces', serif; font-weight: 600;
+    font-size: clamp(26px, 5vw, 38px); margin: 0 0 10px;
+  }
+  .sub { color: var(--ink-soft); font-size: 14px; max-width: 640px; line-height: 1.5; }
+  .sub code { font-family: 'IBM Plex Mono', monospace; background: var(--panel); padding: 1px 5px; border-radius: 4px; }
+
+  .search-box { position: relative; margin: 22px 0 18px; }
+  .search-box input {
+    width: 100%; box-sizing: border-box; font-family: inherit; font-size: 14px;
+    padding: 11px 40px; border-radius: 8px; border: 1px solid var(--rule);
+    background: var(--panel); color: var(--ink); outline: none;
+  }
+  .search-box .icon { position: absolute; left: 14px; top: 50%; transform: translateY(-50%); color: var(--ink-soft); }
+  .search-status { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--ink-soft); margin-bottom: 10px; min-height: 16px; }
+
+  .legend { display: flex; gap: 8px; flex-wrap: wrap; margin-bottom: 18px; }
+  .chip {
+    display: flex; align-items: center; gap: 6px; background: var(--panel);
+    border: 1px solid var(--rule); border-radius: 5px; padding: 5px 10px;
+    font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: var(--ink-soft);
+  }
+  .chip b { font-weight: 700; }
+
+  .tree-panel {
+    background: var(--panel); border: 1px solid var(--rule); border-radius: 10px;
+    padding: 10px 6px; max-height: 620px; overflow-y: auto;
+  }
+  .row {
+    display: flex; align-items: center; gap: 10px; padding: 7px 12px 7px 10px;
+    cursor: pointer; border-radius: 6px; white-space: nowrap;
+  }
+  .row:hover { background: #E4E9D9; }
+  .row.static { cursor: default; }
+  .toggle { width: 16px; display: flex; justify-content: center; flex-shrink: 0; color: var(--ink-soft); }
+  .dot { width: 5px; height: 5px; border-radius: 50%; display: inline-block; }
+  .tag {
+    font-family: 'IBM Plex Mono', monospace; font-size: 10px; font-weight: 600;
+    letter-spacing: 0.04em; border-radius: 4px; padding: 1px 5px; flex-shrink: 0;
+  }
+  .name { font-size: 14px; font-weight: 500; }
+  .name.strong { font-weight: 600; }
+  .bn { font-family: 'Noto Sans Bengali', sans-serif; font-size: 13px; color: var(--ink-soft); }
+  .meta { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: var(--ink-soft); margin-left: auto; padding-left: 12px; flex-shrink: 0; }
+  .children { border-left: 1px solid var(--rule); }
+  .loading { font-family: 'IBM Plex Mono', monospace; font-size: 12px; color: var(--ink-soft); padding: 6px 12px; }
+  mark { background: var(--hilite); color: var(--ink); border-radius: 2px; padding: 0 2px; }
+
+  footer { font-family: 'IBM Plex Mono', monospace; font-size: 11px; color: var(--ink-soft); margin-top: 16px; line-height: 1.6; }
+  footer a { color: var(--dis); }
+</style>
+</head>
+<body>
+<div class="wrap">
+  <div class="eyebrow">LIVE API VIEW</div>
+  <h1>bd-geo-api, browsed live</h1>
+  <p class="sub">
+    Every row below is fetched from this API's own endpoints as you expand it —
+    nothing is pre-loaded. Open your browser's network tab to watch it happen.
+    Base URL: <code id="baseUrlLabel"></code>
+  </p>
+
+  <div class="legend" id="legend"></div>
+
+  <div class="search-box">
+    <span class="icon">🔍</span>
+    <input id="searchInput" type="text" placeholder="Search a division, district, upazila, union, pourashava, hospital... English or বাংলা" />
+  </div>
+  <div class="search-status" id="searchStatus"></div>
+
+  <div class="tree-panel" id="tree"></div>
+
+  <footer>
+    This page is a thin client over <code>/v1</code> — see <a href="/v1">/v1</a> for the
+    resource index or <a href="/openapi.yaml">/openapi.yaml</a> for the full spec.
+    Hospital counts shown per location are loaded on expand, not upfront.
+  </footer>
+</div>
+
+<script>
+const API = location.origin + '/v1';
+document.getElementById('baseUrlLabel').textContent = API;
+
+const KIND_META = {
+  division:  { tag: 'DIV', color: 'var(--div)', label: 'Division' },
+  district:  { tag: 'DIS', color: 'var(--dis)', label: 'District' },
+  upazila:   { tag: 'UPZ', color: 'var(--upz)', label: 'Upazila' },
+  union:     { tag: 'UNI', color: 'var(--uni)', label: 'Union' },
+  ward:      { tag: 'WRD', color: 'var(--wrd)', label: 'Ward' },
+  pourashava:{ tag: 'PR',  color: 'var(--pra)', label: 'Pourashava' },
+  city_corporation: { tag: 'CC', color: 'var(--cc)', label: 'City Corporation' },
+  thana:     { tag: 'THN', color: 'var(--thn)', label: 'Thana' },
+  hospital:  { tag: 'HOS', color: 'var(--hosp)', label: 'Hospital' },
+};
+
+const legend = document.getElementById('legend');
+Object.values(KIND_META).forEach(m => {
+  const el = document.createElement('div');
+  el.className = 'chip';
+  el.innerHTML = `<b style="color:${m.color}">${m.tag}</b> ${m.label}`;
+  legend.appendChild(el);
+});
+
+async function getJSON(url) {
+  const res = await fetch(url);
+  const body = await res.json();
+  if (!res.ok) throw new Error(body?.error?.message || res.statusText);
+  return body;
+}
+
+// ---- Row rendering ----
+
+function makeRow({ kind, name, bn, meta, hasChildren }) {
+  const row = document.createElement('div');
+  row.className = 'row' + (hasChildren ? '' : ' static');
+  const km = KIND_META[kind] || { tag: '?', color: 'var(--ink-soft)' };
+
+  const toggle = document.createElement('span');
+  toggle.className = 'toggle';
+  if (hasChildren) {
+    toggle.textContent = '▸';
+  } else {
+    const dot = document.createElement('span');
+    dot.className = 'dot';
+    dot.style.background = km.color;
+    toggle.appendChild(dot);
+  }
+  row.appendChild(toggle);
+
+  const tag = document.createElement('span');
+  tag.className = 'tag';
+  tag.style.color = km.color;
+  tag.style.border = `1px solid ${km.color}55`;
+  tag.textContent = km.tag;
+  row.appendChild(tag);
+
+  const nameEl = document.createElement('span');
+  nameEl.className = 'name' + (kind === 'division' || kind === 'district' ? ' strong' : '');
+  nameEl.textContent = name;
+  row.appendChild(nameEl);
+
+  if (bn) {
+    const bnEl = document.createElement('span');
+    bnEl.className = 'bn';
+    bnEl.textContent = bn;
+    row.appendChild(bnEl);
+  }
+
+  if (meta) {
+    const metaEl = document.createElement('span');
+    metaEl.className = 'meta';
+    metaEl.textContent = meta;
+    row.appendChild(metaEl);
+  }
+
+  return { row, toggle };
+}
+
+function childrenContainer() {
+  const el = document.createElement('div');
+  el.className = 'children';
+  el.style.display = 'none';
+  return el;
+}
+
+function loadingRow(text) {
+  const el = document.createElement('div');
+  el.className = 'loading';
+  el.textContent = text || 'Loading…';
+  return el;
+}
+
+// Generic expandable node: fetchChildren() resolves to an array of child
+// node specs (see buildXNode functions below). Nothing is fetched until
+// the user actually clicks to expand.
+function attachExpandable(container, { kind, name, bn, meta, fetchChildren, appendMode }) {
+  const { row, toggle } = makeRow({ kind, name, bn, meta, hasChildren: true });
+  const kids = childrenContainer();
+  let loaded = false;
+  let open = false;
+
+  row.addEventListener('click', async () => {
+    open = !open;
+    toggle.textContent = open ? '▾' : '▸';
+    kids.style.display = open ? 'block' : 'none';
+    if (open && !loaded) {
+      loaded = true;
+      kids.appendChild(loadingRow());
+      try {
+        const childSpecs = await fetchChildren();
+        kids.innerHTML = '';
+        if (!childSpecs.length) {
+          kids.appendChild(loadingRow('(none)'));
+        } else {
+          childSpecs.forEach(spec => spec.mount(kids));
+        }
+      } catch (err) {
+        kids.innerHTML = '';
+        kids.appendChild(loadingRow('Failed to load: ' + err.message));
+      }
+    }
+  });
+
+  container.appendChild(row);
+  container.appendChild(kids);
+}
+
+function attachStatic(container, { kind, name, bn, meta }) {
+  const { row } = makeRow({ kind, name, bn, meta, hasChildren: false });
+  container.appendChild(row);
+}
+
+// ---- Node builders: each returns { mount(container) } ----
+
+function hospitalMetaSuffix(count) {
+  return count ? ` · ${count} hospital${count === 1 ? '' : 's'}` : '';
+}
+
+async function hospitalChildSpecs(url) {
+  const { data } = await getJSON(url);
+  return data.map(h => ({
+    mount: (c) => attachStatic(c, {
+      kind: 'hospital', name: h.name, bn: h.name_bn, meta: h.facility_type,
+    }),
+  }));
+}
+
+function wardNode(w) {
+  return { mount: (c) => attachStatic(c, { kind: 'ward', name: w.name, bn: w.bn_name }) };
+}
+
+function unionNode(u) {
+  return {
+    mount: (c) => attachExpandable(c, {
+      kind: 'union', name: u.name, bn: u.bn_name, meta: '9 wards',
+      fetchChildren: async () => {
+        const { data } = await getJSON(`${API}/unions/${u.id}/wards`);
+        return data.map(wardNode);
+      },
+    }),
+  };
+}
+
+function pourashavaNode(p) {
+  const wardLabel = p.ward_count ? `${p.ward_count} wards (BBS)` : 'wards unconfirmed';
+  const catLabel = p.category ? `Cat ${p.category} · ` : '';
+  return {
+    mount: (c) => {
+      if (!p.ward_count) {
+        attachStatic(c, { kind: 'pourashava', name: p.name, bn: p.bn_name, meta: catLabel + wardLabel });
+        return;
+      }
+      attachExpandable(c, {
+        kind: 'pourashava', name: p.name, bn: p.bn_name, meta: catLabel + wardLabel,
+        fetchChildren: async () => {
+          const { data } = await getJSON(`${API}/pourashavas/${p.id}/wards`);
+          return data.map(wardNode);
+        },
+      });
+    },
+  };
+}
+
+function thanaNode(t) {
+  return { mount: (c) => attachStatic(c, { kind: 'thana', name: t.name, bn: t.bn_name }) };
+}
+
+function cityCorpNode(cc) {
+  return {
+    mount: (c) => attachExpandable(c, {
+      kind: 'city_corporation', name: cc.name, bn: cc.bn_name,
+      fetchChildren: async () => {
+        const [{ data: thanas }, { data: hospitals }] = await Promise.all([
+          getJSON(`${API}/city-corporations/${cc.id}/thanas`),
+          getJSON(`${API}/city-corporations/${cc.id}/hospitals`),
+        ]);
+        const specs = thanas.map(thanaNode);
+        if (hospitals.length) {
+          specs.push({
+            mount: (cc2) => attachExpandable(cc2, {
+              kind: 'hospital', name: `Hospitals (${hospitals.length})`, bn: '',
+              fetchChildren: async () => hospitals.map(h => ({
+                mount: (c3) => attachStatic(c3, { kind: 'hospital', name: h.name, bn: h.name_bn, meta: h.facility_type }),
+              })),
+            }),
+          });
+        }
+        return specs;
+      },
+    }),
+  };
+}
+
+function upazilaNode(u) {
+  return {
+    mount: (c) => attachExpandable(c, {
+      kind: 'upazila', name: u.name, bn: u.bn_name,
+      fetchChildren: async () => {
+        const [{ data: unions }, { data: pourashavas }, { data: hospitals }] = await Promise.all([
+          getJSON(`${API}/upazilas/${u.id}/unions?per_page=500`),
+          getJSON(`${API}/upazilas/${u.id}/pourashavas`),
+          getJSON(`${API}/upazilas/${u.id}/hospitals`),
+        ]);
+        const specs = [...pourashavas.map(pourashavaNode), ...unions.map(unionNode)];
+        specs.sort((a, b) => 0); // preserve API order (already alphabetical server-side if desired)
+        if (hospitals.length) {
+          specs.push({
+            mount: (cc2) => attachExpandable(cc2, {
+              kind: 'hospital', name: `Hospitals (${hospitals.length})`, bn: '',
+              fetchChildren: async () => hospitals.map(h => ({
+                mount: (c3) => attachStatic(c3, { kind: 'hospital', name: h.name, bn: h.name_bn, meta: h.facility_type }),
+              })),
+            }),
+          });
+        }
+        return specs;
+      },
+    }),
+  };
+}
+
+function districtNode(d) {
+  return {
+    mount: (c) => attachExpandable(c, {
+      kind: 'district', name: d.name, bn: d.bn_name,
+      fetchChildren: async () => {
+        const [{ data: upazilas }, { data: cityCorps }, { data: unplacedPourashavas }] = await Promise.all([
+          getJSON(`${API}/districts/${d.id}/upazilas?per_page=500`),
+          getJSON(`${API}/districts/${d.id}/city-corporations`),
+          getJSON(`${API}/districts/${d.id}/pourashavas`),
+        ]);
+        const specs = [...upazilas.map(upazilaNode), ...cityCorps.map(cityCorpNode)];
+        if (unplacedPourashavas.length) {
+          specs.push({
+            mount: (cc2) => attachExpandable(cc2, {
+              kind: 'pourashava', name: `Other pourashavas (upazila not confirmed) — ${unplacedPourashavas.length}`, bn: '',
+              fetchChildren: async () => unplacedPourashavas.map(pourashavaNode),
+            }),
+          });
+        }
+        return specs;
+      },
+    }),
+  };
+}
+
+function divisionNode(dv) {
+  return {
+    mount: (c) => attachExpandable(c, {
+      kind: 'division', name: dv.name, bn: dv.bn_name,
+      fetchChildren: async () => {
+        const { data } = await getJSON(`${API}/divisions/${dv.id}/districts?per_page=100`);
+        return data.map(districtNode);
+      },
+    }),
+  };
+}
+
+// ---- Initial load: divisions ----
+const tree = document.getElementById('tree');
+(async () => {
+  tree.innerHTML = '';
+  tree.appendChild(loadingRow('Loading divisions…'));
+  try {
+    const { data } = await getJSON(`${API}/divisions`);
+    tree.innerHTML = '';
+    data.forEach(dv => divisionNode(dv).mount(tree));
+  } catch (err) {
+    tree.innerHTML = '';
+    tree.appendChild(loadingRow('Failed to load divisions: ' + err.message));
+  }
+})();
+
+// ---- Search ----
+const searchInput = document.getElementById('searchInput');
+const searchStatus = document.getElementById('searchStatus');
+let searchTimer = null;
+
+searchInput.addEventListener('input', () => {
+  clearTimeout(searchTimer);
+  const q = searchInput.value.trim();
+  if (!q) { searchStatus.textContent = ''; return; }
+  searchTimer = setTimeout(() => runSearch(q), 300);
+});
+
+async function runSearch(q) {
+  searchStatus.textContent = 'Searching…';
+  try {
+    const { data, meta } = await getJSON(`${API}/search?q=${encodeURIComponent(q)}&per_page=25`);
+    searchStatus.textContent = `${meta.total} match${meta.total === 1 ? '' : 'es'} for "${q}"${meta.total > 25 ? ' (showing first 25)' : ''}`;
+    tree.innerHTML = '';
+    if (!data.length) {
+      tree.appendChild(loadingRow('No matches.'));
+      return;
+    }
+    data.forEach(r => {
+      attachStatic(tree, {
+        kind: r.type === 'city_corporation' ? 'city_corporation' : r.type,
+        name: r.name,
+        bn: r.bn_name || r.name_bn || '',
+        meta: r.type,
+      });
+    });
+  } catch (err) {
+    searchStatus.textContent = 'Search failed: ' + err.message;
+  }
+}
+</script>
+</body>
+</html>
